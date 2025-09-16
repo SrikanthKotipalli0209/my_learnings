@@ -20,6 +20,7 @@ public class typecasting {
         int u = 98;
         char j = (char)u;
 
+
         
         System.out.println(b);
         System.out.println(e);
