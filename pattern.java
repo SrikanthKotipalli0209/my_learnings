@@ -19,7 +19,7 @@ public class pattern {
                 }
             
 
-            System.out.println();
+        System.out.println();
 
         }
 
@@ -30,9 +30,15 @@ public class pattern {
 
 
 
-// for (j = 1; j <= i; j++) 
-// prints 
-/* 
+/*  
+for(i=1;i<=6;i++)
+    {
+        for (j = 1; j <= i; j++) 
+        {
+            System.out.println("#");
+        }
+    }
+prints 
 #
 ##
 ###
@@ -78,7 +84,6 @@ prints
             for(j=1;j<=n-i;j++){
                 System.out.print(" ");
             }
-        
                 for (j = 1; j<=i; j++) { 
                     System.out.print("#");
                 }
@@ -91,4 +96,41 @@ prints
      #
  */
 
+
+ /*
+  * Traingle 
+  for (int i = 1; i <= n; i++) {
+            // print spaces
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print("   "); // 3 spaces to match " # " width
+            }
+            for(int j =1;j<=2*i-1;j++)
+            {
+                System.out.print(" # ");
+
+            }
+            
+            System.out.println();
+        }
+  */
+
+
+
+/*
+ * inverted Triangle 
+ * for (int i = n; i >= 1; i--) {
+            // print spaces
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print("   "); // 3 spaces to match " # " width
+            }
+            for(int j =1;j<=2*i-1;j++)
+            {
+                System.out.print(" # ");
+
+            }
+            
+            System.out.println();
+        }
+
+ */
 
